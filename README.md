@@ -91,4 +91,5 @@ if __name__ == '__main__':
     manager.run()
 
 ``` 
-heroku addons:create heroku-postgresql
+### Email: Elrophi@gmail.com
+### Contact: 0700 000 000
