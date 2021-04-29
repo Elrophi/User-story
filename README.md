@@ -93,3 +93,6 @@ if __name__ == '__main__':
 ``` 
 ### Email: Elrophi@gmail.com
 ### Contact: 0700 000 000
+
+### Copyright and License
+[MIT License](https://github.com/Elrophi/News-Highlight/blob/master/LICENSE)  
