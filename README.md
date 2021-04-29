@@ -14,3 +14,11 @@ An app that allows users to pitch a topic and get votes on them and feeback.
 >Python
 
 >Flask
+
+---
+>## Installation and setup locally
+## Pre-requisites
+- Python3
+- Virtual environment
+- bootstrap
+- flask
