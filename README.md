@@ -22,3 +22,12 @@ An app that allows users to pitch a topic and get votes on them and feeback.
 - Virtual environment
 - bootstrap
 - flask
+
+
+---
+>## Cloning and opening on compiler
+#### On your terminal run
+
+    $ git clone https://github.com/Elrophi/User-story.git
+    $ cd user-story
+    $ code .
