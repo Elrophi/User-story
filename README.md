@@ -32,7 +32,21 @@ An app that allows users to pitch a topic and get votes on them and feeback.
     $ cd user-story
     $ code .
 
----
+
 ##  Setting up the virtual environment and activating it
     $ python -m venv <name of virtual environment>
     $ source <name of virtual environment>/bin/activate
+
+##  Install flask and modules needed
+       $ python3 -m pip install flask
+       $ python3 -m install flask-bootstrap
+       $python3 -m install flask-script
+
+## Creating the start.sh file to tun the app
+ - Create a file and name it start.sh
+ - in the file add this
+
+       export SECRET_KEY=<you api key>
+       python3 manage.py server
+
+heroku addons:create heroku-postgresql
