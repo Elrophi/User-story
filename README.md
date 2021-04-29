@@ -31,3 +31,8 @@ An app that allows users to pitch a topic and get votes on them and feeback.
     $ git clone https://github.com/Elrophi/User-story.git
     $ cd user-story
     $ code .
+
+---
+##  Setting up the virtual environment and activating it
+    $ python -m venv <name of virtual environment>
+    $ source <name of virtual environment>/bin/activate
