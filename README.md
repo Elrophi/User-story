@@ -49,4 +49,10 @@ An app that allows users to pitch a topic and get votes on them and feeback.
        export SECRET_KEY=<you api key>
        python3 manage.py server
 
+
+## Run the app now
+On your terminal run
+
+        $ chmod +x start.sh
+        $ ./start.sh
 heroku addons:create heroku-postgresql
