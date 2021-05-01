@@ -1,6 +1,6 @@
 {% extends 'base.html' %} 
 {% import 'macros.html' as macro %} 
-{% block body %}
+{% block body%}
 
 <style>
   .tab {
@@ -12,8 +12,10 @@
     box-shadow: 2px 2px rgba(169, 169, 169, 0.2);
   }
 </style>
-
-
+{% block navbar %}
+    {% include 'navbar.html' %}
+{% endblock %}
+<div class="container">
 <ul class="nav nav-tabs nav-justified" role="tablist">
   <li class="nav-item">
     <a class="nav-link active" data-toggle="tab" href="#General" role="tab">General</a>
@@ -74,5 +76,5 @@
     </div>
   </div>
 </div>
-
-    {% endblock %}
+</div>
+{% endblock %}
